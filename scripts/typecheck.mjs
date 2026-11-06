@@ -1,0 +1,15 @@
+import { readFile, mkdir, writeFile, rm } from 'node:fs/promises';
+import { spawnSync } from 'node:child_process';
+import { resolveTool } from './tooling.mjs';
+const html = await readFile(new URL('../index.html', import.meta.url), 'utf8');
+const code = html.match(/<script id="app-script">([\s\S]*?)<\/script>/)?.[1];
+if (!code) throw new Error('Application script not found');
+const directory = new URL('../test/scratch/typecheck/', import.meta.url);
+await mkdir(directory, { recursive: true });
+const file = new URL('app.js', directory);
+await writeFile(file, code);
+const tsc = resolveTool('typescript/bin/tsc');
+const result = spawnSync(process.execPath, [tsc, '--allowJs', '--checkJs', '--strict', '--noEmit', '--target', 'ES2022', '--lib', 'ES2022,DOM,DOM.Iterable', '--skipLibCheck', file.pathname], { stdio: 'inherit' });
+await rm(file);
+if (result.status !== 0) process.exit(result.status ?? 1);
+console.log('Typecheck passed: strict TypeScript checkJs on the shipped inline JavaScript.');

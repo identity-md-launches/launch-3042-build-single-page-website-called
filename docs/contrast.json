@@ -1,0 +1,78 @@
+{
+  "dark": [
+    {
+      "selector": ".paper .story-text p",
+      "foreground": "rgb(52, 45, 36)",
+      "background": "rgb(243, 233, 210)",
+      "ratio": 11.25
+    },
+    {
+      "selector": ".chapter-meta",
+      "foreground": "rgb(111, 96, 77)",
+      "background": "rgb(243, 233, 210)",
+      "ratio": 5.03
+    },
+    {
+      "selector": ".hero .primary",
+      "foreground": "rgb(52, 38, 14)",
+      "background": "rgb(237, 199, 120)",
+      "ratio": 9.12
+    },
+    {
+      "selector": ".side-section .character-role",
+      "foreground": "rgb(173, 179, 196)",
+      "background": "rgb(26, 32, 48)",
+      "ratio": 7.75
+    },
+    {
+      "selector": ".side-section h2",
+      "foreground": "rgb(238, 233, 221)",
+      "background": "rgb(26, 32, 48)",
+      "ratio": 13.4
+    },
+    {
+      "selector": ".live-pill",
+      "foreground": "rgb(169, 199, 173)",
+      "background": "rgb(17, 21, 34)",
+      "ratio": 9.93
+    }
+  ],
+  "light": [
+    {
+      "selector": ".paper .story-text p",
+      "foreground": "rgb(52, 45, 36)",
+      "background": "rgb(243, 233, 210)",
+      "ratio": 11.25
+    },
+    {
+      "selector": ".chapter-meta",
+      "foreground": "rgb(111, 96, 77)",
+      "background": "rgb(243, 233, 210)",
+      "ratio": 5.03
+    },
+    {
+      "selector": ".hero .primary",
+      "foreground": "rgb(255, 244, 220)",
+      "background": "rgb(118, 83, 24)",
+      "ratio": 6.36
+    },
+    {
+      "selector": ".side-section .character-role",
+      "foreground": "rgb(101, 92, 80)",
+      "background": "rgb(229, 219, 199)",
+      "ratio": 4.78
+    },
+    {
+      "selector": ".side-section h2",
+      "foreground": "rgb(48, 45, 40)",
+      "background": "rgb(229, 219, 199)",
+      "ratio": 9.98
+    },
+    {
+      "selector": ".live-pill",
+      "foreground": "rgb(61, 98, 70)",
+      "background": "rgb(238, 231, 216)",
+      "ratio": 5.62
+    }
+  ]
+}

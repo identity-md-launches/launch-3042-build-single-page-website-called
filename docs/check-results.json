@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "name": "production export at /preview/: metadata, local assets, first screen and no overflow",
+      "passed": true
+    },
+    {
+      "name": "keyboard join, inline validation, HTML stripping, role, focus return, vote and reload",
+      "passed": true
+    },
+    {
+      "name": "joining from a choice preserves intent, but an intervening chapter requires a fresh vote",
+      "passed": true
+    },
+    {
+      "name": "20-second poll, exact RPM animation, choice remembered, 499/500 work and idle deduplication",
+      "passed": true
+    },
+    {
+      "name": "pause control and reduced motion stop animation without stopping live data",
+      "passed": true
+    },
+    {
+      "name": "each failing endpoint preserves all last-good data, reconnects, then recovers",
+      "passed": true
+    },
+    {
+      "name": "empty startup, request failures and retry keep joining available",
+      "passed": true
+    },
+    {
+      "name": "unavailable storage, failed writes and corrupted memory stay usable",
+      "passed": true
+    },
+    {
+      "name": "empty and all-zero settlements chart, precise supply, accessible data table",
+      "passed": true
+    },
+    {
+      "name": "light/dark axe accessibility, modal semantics, 200% text resize, forced colors",
+      "passed": true
+    },
+    {
+      "name": "50-chapter archive remains local, scrollable, newest first and safe with hostile saved text",
+      "passed": true
+    },
+    {
+      "name": "no browser script errors across interaction checks",
+      "passed": true
+    },
+    {
+      "name": "WebKit primary interaction",
+      "passed": null,
+      "limitation": "WebKit could not launch: required host shared libraries are unavailable."
+    }
+  ],
+  "errors": []
+}

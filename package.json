@@ -1,0 +1,24 @@
+{
+  "name": "hamster-chronicles",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A self-contained, read-only living story powered by Squeektoshi's wheel.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "typecheck": "node scripts/typecheck.mjs",
+    "test": "node --test tests/story.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "test:live": "node tests/live.mjs",
+    "social-card": "node scripts/social-card.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "playwright": "1.61.1",
+    "@axe-core/playwright": "4.11.1"
+  }
+}

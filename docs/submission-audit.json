@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-06",
+  "limitBytes": 8388608,
+  "note": "Uncompressed newly added files. The report itself is included in totalAddedBytes; scratch, supplied inputs and existing ignored paths are not submission files.",
+  "sourceExportIdentical": true,
+  "sourceSha256": "3a3efe27eef147270d24ac2afaf85822668fea23c79bee55fa427f12ae9cb2fe",
+  "exportFiles": [
+    "index.html",
+    "social-card.png"
+  ],
+  "runtimeBytes": 175060,
+  "noDependencyCachesArchivesOrSubmodulesInAddedFiles": true,
+  "totalAddedBytes": 943554,
+  "remainingBytes": 7445054,
+  "files": [
+    {
+      "path": "DESIGN.md",
+      "bytes": 11028
+    },
+    {
+      "path": "README.md",
+      "bytes": 8816
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 19003
+    },
+    {
+      "path": "assets/social-card.png",
+      "bytes": 26158
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 148902
+    },
+    {
+      "path": "dist/social-card.png",
+      "bytes": 26158
+    },
+    {
+      "path": "docs/check-results.json",
+      "bytes": 1760
+    },
+    {
+      "path": "docs/contrast.json",
+      "bytes": 1877
+    },
+    {
+      "path": "docs/screenshots/character-dialog.png",
+      "bytes": 51713
+    },
+    {
+      "path": "docs/screenshots/live-desktop.png",
+      "bytes": 308159
+    },
+    {
+      "path": "docs/screenshots/live-mobile.png",
+      "bytes": 57777
+    },
+    {
+      "path": "docs/screenshots/mobile-light.png",
+      "bytes": 66000
+    },
+    {
+      "path": "docs/taste-checks.json",
+      "bytes": 3888
+    },
+    {
+      "path": "index.html",
+      "bytes": 148902
+    },
+    {
+      "path": "licenses/Noto-Emoji-OFL.txt",
+      "bytes": 4330
+    },
+    {
+      "path": "licenses/Pixelify-Sans-OFL.txt",
+      "bytes": 4488
+    },
+    {
+      "path": "licenses/design-guidance.txt",
+      "bytes": 11964
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 3640
+    },
+    {
+      "path": "package.json",
+      "bytes": 681
+    },
+    {
+      "path": "scripts/audit.mjs",
+      "bytes": 2823
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 748
+    },
+    {
+      "path": "scripts/preview.mjs",
+      "bytes": 1028
+    },
+    {
+      "path": "scripts/probe-browser.mjs",
+      "bytes": 519
+    },
+    {
+      "path": "scripts/social-card.mjs",
+      "bytes": 1730
+    },
+    {
+      "path": "scripts/tooling.mjs",
+      "bytes": 575
+    },
+    {
+      "path": "scripts/typecheck.mjs",
+      "bytes": 999
+    },
+    {
+      "path": "tests/browser.mjs",
+      "bytes": 16749
+    },
+    {
+      "path": "tests/engine.mjs",
+      "bytes": 1509
+    },
+    {
+      "path": "tests/live.mjs",
+      "bytes": 2136
+    },
+    {
+      "path": "tests/server.mjs",
+      "bytes": 908
+    },
+    {
+      "path": "tests/story.test.mjs",
+      "bytes": 5791
+    }
+  ]
+}
